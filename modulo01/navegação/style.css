@@ -59,6 +59,9 @@ article > p {
     background-color: white;
     border-radius: 10px;
 }
+.videos {
+    width: 100%;
+}
 
 
 footer {
