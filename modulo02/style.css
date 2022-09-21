@@ -103,6 +103,9 @@ main img.bugdroid {
     display: block;
     margin: auto;
 }
+main img {
+    margin: auto;
+}
 
 
 
