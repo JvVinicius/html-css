@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('/fontes/idroid.otf')format('opentype');
+    src: url('./fontes/idroid.otf')format('opentype');
     font-weight: normal;
 }
 
@@ -73,6 +73,7 @@ main {
     padding: 20px 30px 20px 30px;
     text-align: justify;
     margin: auto;
+    display: block;
     max-width: 800px;
     min-width: 300px;
     border-radius: 0px 0px 15px 15px;
@@ -99,13 +100,13 @@ main a:hover{
 main a::after {
     content: '\1f517';
 }
-main img.bugdroid {
+.images {
     display: block;
     margin: auto;
 }
-main picture {
-    margin: auto;
+.imagespq {
     display: block;
+    margin: auto;
 }
 
 
