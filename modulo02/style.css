@@ -100,16 +100,16 @@ main a:hover{
 main a::after {
     content: '\1f517';
 }
-.images {
+main img {
+    width: 100%;
     display: block;
     margin: auto;
 }
-.imagespq {
+.bugdroid{
+    width: 60%;
     display: block;
     margin: auto;
 }
-
-
 
 article > h1 {
     font-family: var(--fonte-android);
