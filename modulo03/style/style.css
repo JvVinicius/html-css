@@ -43,7 +43,7 @@ section.backsolid {
 }
 section.backimg1 {
     background-image: url('../imagens/back001.jpg');
-    background-position: bottom center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     color: white;
