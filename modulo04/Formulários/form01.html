@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body {
+            background-color: rgba(4, 167, 189, 0.849);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        legend {
+            font-weight: bold;
+            font-size: 20px;
+        }
+        aside {
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Primeiro Formulário </h1>
+        <form>
+            <fieldset>
+                <legend>Digite:</legend>
+                <p>
+                    <label for="iname">Seu nome:</label>
+                    <input type="text" name="name" id="iname" required>
+                </p>
+                <p>
+                    <label for="itel">Seu telefone:</label>
+                    <input type="tel" name="tel" id="itel" maxlength="11" required placeholder="(XX)XXXXX-XXXX">
+                </p>
+                <p>
+                    <label for="idate">Sua data de nascimento:</label>
+                    <input type="date" name="date" id="idate" required>
+                </p>
+                <p>
+                    <label for="iemail">Seu e-mail:</label>
+                    <input type="email" name="email" id="iemail" required>
+                </p>
+                <p>
+                    <label for="itime">Que horas são:</label>
+                    <input type="time" name="time" id="itime">
+                </p>
+                <section>
+                    <label for="istate">Estado onde mora:</label>
+                    <input type="text" name="state" id="istate" list="statelst">
+                    <datalist id="statelst">
+                        <option value="Pernambuco"></option>
+                        <option value="Bahia"></option>
+                        <option value="São Paulo"></option>
+                    </datalist>
+
+                    <aside>
+                        Deixe uma mensagem: <br>
+                        <textarea name="texto" id="itexto" cols="50" rows="10"></textarea>
+                    </aside>
+                </section>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
